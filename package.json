@@ -1,0 +1,28 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "Guide for ts in node project",
+  "homepage": "https://github.com/Proshanta15/express-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/Proshanta15/express-typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proshanta15/express-typescript.git"
+  },
+  "license": "ISC",
+  "author": "Proshanta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}
